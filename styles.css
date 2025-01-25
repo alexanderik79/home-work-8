@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    margin: 20px 0 10px;
+}
+
+.block {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    margin: 10px;
+}
+
+.float-container {
+    width: 100%;
+}
+
+.center-container {
+    width: 360px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.left-lg {
+    float: left;
+    margin-right: 10px;
+    height: 110px;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.right-lg {
+    float: right;
+    margin-left: 10px;
+    height: 110px;
+}
+
+.center {
+    margin: 10px auto;
+    float: none;
+}
+
+.float-left {
+    float: left;
+    margin-right: 10px; /* Відстань між блоками */
+}
+
+.stack-container {
+    margin: 10px 0;
+}
+
+.stacked {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
